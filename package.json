@@ -1,0 +1,22 @@
+{
+  "name": "repo-pack",
+  "version": "0.1.0",
+  "description": "Packs a repository's text files into one file for an AI: respects .gitignore, leaves out binaries, lock files and secrets, and tells you the size in estimated tokens.",
+  "type": "module",
+  "bin": {
+    "repo-pack": "repo-pack.mjs"
+  },
+  "files": ["repo-pack.mjs", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["ai", "llm", "prompt", "repository", "context", "gitignore", "tokens", "cli"],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tick-ai/repo-pack.git"
+  }
+}
